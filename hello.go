@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import sub "github.com/jfrog-qa/subModulesTest/sub"
 func main(){
-fmt.Println("hello from root v1.7.0")
+fmt.Println(sub.Hello())
 }
