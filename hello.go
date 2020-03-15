@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main(){
-fmt.Println(hello from root)
+fmt.Println("hello from root")
 }
